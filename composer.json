@@ -23,8 +23,12 @@
             "MiguelSimoes\\Core\\ValueObject\\Tests\\": "tests/"
         }
     },
+    "config": {
+        "bin-dir": "bin"
+    },
     "require": {
         "php": "^7.0",
+        "ramsey/uuid": "^3.7",
         "smsimoes/equalable": "^0.9",
         "smsimoes/stringable": "^0.9"
     },
