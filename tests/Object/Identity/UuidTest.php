@@ -23,4 +23,10 @@ class UuidTest extends TestCase
     {
         new Uuid('string');
     }
+
+    public function testConstructorWithEmptyValue()
+    {
+        $value = new Uuid();
+        $this->assertNotEmpty($value->getValue());
+    }
 }
