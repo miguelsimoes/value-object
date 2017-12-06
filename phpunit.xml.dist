@@ -5,7 +5,7 @@
     </php>
     <testsuites>
         <testsuite name="Miguel Simões ValueObject Test Suite">
-            <directory>./Tests</directory>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
     <filter>
