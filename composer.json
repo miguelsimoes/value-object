@@ -1,0 +1,34 @@
+{
+    "name"   : "smsimoes/value-object",
+    "description": "Core Component for value objects representation",
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://github.com/miguelsimoes/value-object",
+    "authors": [
+        {
+            "name": "Miguel Simões",
+            "email": "msimoes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MiguelSimoes\\Core\\ValueObject\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MiguelSimoes\\Core\\ValueObject\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "smsimoes/equalable": "^0.9",
+        "smsimoes/stringable": "^0.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    }
+}
