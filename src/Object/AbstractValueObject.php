@@ -38,7 +38,7 @@ abstract class AbstractValueObject implements ValueObjectInterface
     /**
      * {@inheritdoc}
      */
-    public function classEquals(ValueObject $object): bool
+    public function classEquals(ValueObjectInterface $object): bool
     {
         return \get_class($this) === \get_class($object);
     }
@@ -48,7 +48,7 @@ abstract class AbstractValueObject implements ValueObjectInterface
      */
     public function equals($object): bool
     {
-        if (false === $object instanceof ValueObject) {
+        if (false === $object instanceof ValueObjectInterface) {
             /* We are not dealing with a value object, so we will not be able to make the validation */
             return false;
         }
