@@ -19,7 +19,7 @@ use MiguelSimoes\Core\Stringable\Stringable;
  *
  * @author Miguel Simões <msimoes@gmail.com>
  */
-interface ValueObject extends Stringable, Equalable
+interface ValueObjectInterface extends Stringable, Equalable
 {
     /**
      * Gets whether the provided class object is of the same type as the current one

@@ -11,14 +11,14 @@
 
 namespace MiguelSimoes\Core\ValueObject\Object;
 
-use MiguelSimoes\Core\ValueObject\ValueObject;
+use MiguelSimoes\Core\ValueObject\ValueObjectInterface;
 
 /**
  * Agnostic implementation of a value object
  *
  * @author Miguel Simões <msimoes@gmail.com>
  */
-abstract class AbstractValueObject implements ValueObject
+abstract class AbstractValueObject implements ValueObjectInterface
 {
     /**
      * @var mixed
