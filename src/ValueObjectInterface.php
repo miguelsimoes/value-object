@@ -28,7 +28,7 @@ interface ValueObjectInterface extends Stringable, Equalable
      *
      * @return bool
      */
-    public function classEquals(ValueObject $object): bool;
+    public function classEquals(ValueObjectInterface $object): bool;
 
     /**
      * Gets the value of the object being represented
